@@ -38,6 +38,6 @@ func DatabaseConnection() (*sql.DB, error) {
 		return nil, err
 	}
 
-	log.Println("connected to database")
+	log.Println("connected to database successfully")
 	return db, err
 }
